@@ -4,7 +4,7 @@ To flash the halves use:
 
 ```
 #left side
-make crkbd:dsanchezseco:dfu-split-left
+make crkbd:fastjames:avrdude-split-left
 #right side, with RGB matrix fix
-make crkbd:dsanchezseco:dfu-split-right RGB_MATRIX_SPLIT_RIGHT=yes
+make crkbd:fastjames:avrdude-split-right RGB_MATRIX_SPLIT_RIGHT=yes
 ```
